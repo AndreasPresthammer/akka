@@ -144,7 +144,7 @@ However, once you move to production you should really *pick a different seriali
 @@@ warning
 
 Do not rely on Java serialization (which will be picked by Akka by default if you don't specify any serializers)
-for *serious* application development! It does not lean itself well to evolving schemas over long periods of time,
+for *serious* application development! It does not lend itself well to evolving schemas over long periods of time,
 and its performance is also not very high (it never was designed for high-throughput scenarios).
 
 @@@
